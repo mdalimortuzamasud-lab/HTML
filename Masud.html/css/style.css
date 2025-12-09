@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+table{
+    width: 80%;
+
+}
+table,tr,tr,th{
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+#nav{
+    a{
+        text-decoration: none;
+    }
+}
+#nav{
+    width: 10%;
+    height: 100vh;
+    float: right;
+    color:rebeccapurple;
+}
+#main{
+    width: 90%;
+    height: 100vh;
+    float: left;
+    color: yellow;
+}
+#main iframe{
+    width: inherit;
+    height: inherit;
+}
