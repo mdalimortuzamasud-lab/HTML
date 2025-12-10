@@ -1,0 +1,19 @@
+body{
+    background-color: blanchedalmond;
+}
+
+input[type=password]{
+    background-color: brown;
+}
+.taxtfield{
+    background-color: blue;
+}
+/* #masud{
+    background-color: chartreuse;
+}*/
+#khan{
+    background-color: crimson;
+}
+.karim{
+background-color: darkgoldenrod;
+}
