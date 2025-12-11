@@ -1,10 +1,10 @@
 .list{
     list-style-type: square;
 }
-*{
+/* *{
     margin: 0px;
     padding: 0px;
-}
+} */
 table{
     width: 80%;
 }
@@ -15,17 +15,17 @@ table,tr,td,th{
 table{
     text-align: center;
 }
-nav{
-    background-color: black;
-    padding:0px;
-}
-nav ul{
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-}
+
 nav,ul,li a{
     text-decoration:none ;
     display: block;
+}
+#ddd{
+    background-color: black;
+}
+#bbb{
+    background-color: yellow;
+}
+.ccc{
+    background-color: red;
 }
