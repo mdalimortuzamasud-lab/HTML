@@ -7,16 +7,16 @@
 </head>
 <body>
     <label for="">number</label>
-    <input type="text" id="number"><br>
-    <input type="submit" value="check number" on click="checkOddEven()" /> <br>
-     <label for=""> no result</label>
+    <input type="text" id="2number"><br>
+    <button type="button" onclick="checkOddEven()">check</button><br>
+     <label for=""> result</label>
     <script>
-        function checkOddEven(){
-            let number=document.getElementById("number").value;
+        function checkOddEven() {
+         let number=document.getElementById("2number").value;
 
-            let preccedNUMBER=Number.parseInt(number);
+        let preccedNUMBER=Number.parseInt(number);
 
-            if(preccedNUMBER % 2== 0) {
+        if(preccedNUMBER % 2== 0) {
                 document.getElementById("result").innerHTML= "<Strong>even<Strong>";
         }else{
             document.getElementById("result").innerHTML="<strong>Odd</strong>";
