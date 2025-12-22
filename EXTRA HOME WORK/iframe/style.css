@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: auto;
+}
+.AA{
+    background-color: chartreuse;
+}
+
+#www{
+    background-color: brown;
+}
+table,td,tr{
+        border: 1px solid red;
+        border-collapse: collapse;
+        background-color: chocolate;
+        margin: 0px;
+        padding: 0px;
+    }
+    table{
+        width: 80%;
+        margin: auto;
+        color: #555;
+        text-align: center;
+
+    }
+    #navber{
+        margin:auto;
+        width: 10%;
+        height: 100vh;
+        float: left;
+        background-color: blue;
+    }
+    #main{
+        float: right;
+        width: 90%;
+        height: 100vh;
+    }
+    #main iframe{
+        width: inherit;
+        height: inherit;
+    }
+    

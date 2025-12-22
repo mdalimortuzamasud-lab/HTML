@@ -15,16 +15,16 @@
 
     <script>
         function login(){
-            let number   = document.getElementById("userName").value;
-            let password = document.getElementById("passWord").value;
+            let userName = document.getElementById("userName").value;
+            let passWord = document.getElementById("passWord").value;
 
-            if(userName == "JAVA" &&  passWord=="123456"){
-                Document.getElementById("result").intertext   ="welcome"+use;
-                Document.getElementById("result").style.color = "green";
+            if(userName == "JAVA" &&  passWord =="123456"){
+                document.getElementById("result").innerHTML   ="welcome"+userName;
+                document.getElementById("result").style.color = "green";
             }else{
-                Document.getElementById("result").intertext =
+                document.getElementById("result").innerHTML =
                 "username or password is incorrect";
-                Document.getElementById("result").style.color="red";
+                document.getElementById("result").style.color="red";
             }
         }
     </script>

@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: auto;
+}
+.AA{
+    background-color: chartreuse;
+}
+
+#www{
+    background-color: brown;
+}
+table,td,tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        background-color: chocolate;
+        margin:auto;
+        width: 80%;
+    }
+    table{
+        color: #555;
+        text-align: center;
+    }
+    #navber{
+        background-color:beige;
+        margin:auto;
+        width: 10%;
+        height: 100vh;
+        float: left;
+    }
+    #main{
+        width: 90%;
+        height: 100vh;
+        float: right
+
+        
+    }
+    #main iframe{
+        width: inherit;
+        height: inherit;
+        
+    }
+    #navber ul,
+    #navber li{
+        justify-content: center;
+        display: flex;
+    }
+    
