@@ -13,10 +13,18 @@ table,td,tr{
         border: 1px solid;
         border-collapse: collapse;
         background-color: chocolate;
+<<<<<<< HEAD
     }
     table{
         margin:auto;
         width: 80%;
+=======
+        
+    }
+    table{
+        width: 80%;
+        margin: auto;
+>>>>>>> 22be2e0f4c4954c398fd23144eca158d27e77adf
         color: #555;
         text-align: center;
     }
