@@ -13,16 +13,15 @@ table,td,tr{
         border: 1px solid;
         border-collapse: collapse;
         background-color: chocolate;
-        margin:auto;
-        width: 80%;
     }
     table{
+        margin:auto;
+        width: 80%;
         color: #555;
         text-align: center;
     }
     #navber{
         background-color:beige;
-        margin:auto;
         width: 10%;
         height: 100vh;
         float: left;
@@ -43,5 +42,8 @@ table,td,tr{
     #navber li{
         justify-content: center;
         display: flex;
+    }
+    #navber a{
+        text-decoration: none;
     }
     

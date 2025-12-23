@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+table,tr,th{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+table{
+    width: 80%;
+     margin: auto;
+}
+#sidenav{
+    width: 10%;
+    height: 100vh;
+    background-color: aqua;
+    float: left;
+}
+#main{
+    width: 90% ;
+    height:100vh ;
+    float: right;
+}
+#main iframe{
+    width:inherit;
+    height:inherit;
+}
+#sidenav a{
+    text-decoration: none;
+}
