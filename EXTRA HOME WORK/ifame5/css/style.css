@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: blue;
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+#sidebar{
+    background-color: aqua;
+    width: 10%;
+    height: 100vh;
+    float: left;
+}
+#masud{
+    width: 90%;
+    height: 100vh;
+    float: right;
+}
+#main iframe{
+    width: 
+    height:
+}
+
+
+
+
