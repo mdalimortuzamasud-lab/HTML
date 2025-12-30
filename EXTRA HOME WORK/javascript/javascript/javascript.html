@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+// function x() {
+//   var qpt = "First come, first served";
+//   var pattern = /first/gi;
+//   document.write(qpt.match(pattern)[0]);
+// }
+
+// x();
+// function sum(x)
+// {
+//   function add(y)
+//   {
+//     return x + y;
+//   }
+//   return add;
+// }
+
+// function callme() {
+//   result = sum(5)(5);
+//   alert(result);
+// }
+function sum(x)
+{
+  function add(y)
+  {
+    return x + y;
+  }
+  return add;
+}
+
+function callme() {
+  let result = sum(5)(5);
+  alert(result);
+}
+ </script>
+</body>
+</html>
