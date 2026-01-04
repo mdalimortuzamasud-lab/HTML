@@ -138,4 +138,14 @@ body {
     border-top-color: #262626;
   }
 }
- 
+ .donate-text {
+  font-size: 1.25rem;
+  font-weight: 5oo;
+  background-color: #cf0808;
+  color: #ffffff;
+  padding: 12px 24px;
+  display: inline-block;
+  text-align: center;
+  
+}
+
