@@ -17,7 +17,7 @@ SELECT
 FROM employees;
 SELECT DISTINCT  first_name,last_name from employees;
 
-DESCRIBE employees
+DESCRIBE employees;
 
 SELECT last_name,salary,email
 from employees
@@ -50,6 +50,7 @@ where hire_date='05-feb-06'
 SELECT last_name,salary,email,hire_date,commission_pct
 from employees
 where commission_pct is not null;
+
 
 
 
