@@ -21,8 +21,8 @@ function submitfrom(event){
              "location:"+location +"\n"+
              "course:"+courseList.join(" ,")+"\n"
 
-  let newWindow = window.open("",'_blank');
+  let newWindow = window.open('','_blank');
       newWindow.document.writeln("<pre>"+result+"</pre>");
 }
-let myform = document.getElementById('myform');
+let myform = document.getElementById('myfrom');
 myform.addEventListener("submit",submitfrom)
