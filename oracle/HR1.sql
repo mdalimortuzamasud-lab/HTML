@@ -1,59 +1,53 @@
-SELECT to_char(sysdate,'HH24:mI:ss am')
-from dual;
-SELECT to_char(sysdate,'DD"of"Month')
-from dual;
-select to_char(sysdate,'ddspth')
-from dual;
-SELECT to_char(sysdate,'ss am')
-from dual;
-SELECT to_char(sysdate,' dd"p.m.')
-from dual;
-SELECT to_char(sysdate,' HH12')
-from dual;
-select to_char(syadate,'HH24')
-from dual;
-SELECT to_char(sysdate,'MI')
-FROM DUAL;
-SELECT tO_CHAR(syadate,'ss')
-from dual;
-select to_char(sysdate,'sssss')
-from dual;
-select to_char(syadate,MI)
- 
-SELECT last_name,to_C
-select commission_pct,nvl(commission_pct,0)
+CREATE table students(
+stu_id number (7) not null,
+stu_name VARCHAR2(26) NOT NULL,
+Stu_email VARCHAR2 (50) not null,
+stu_dob date,
+cell_no VARCHAR2(11),
+blood_grp VARCHAR(3),
+
+constraint hr_students_stu_id_pk PRIMARY KEY (stu_id)
+);
+
+COMMIT;
+desc students;
+INSERT into students(STU_ID,STU_NAME,STU_EMAIL,STU_DOB,CELL_NO, BLOOD_GRP)
+values('1','saharan','saharan@gmail.com','03-jan-2000','01521522195','B-');
+
+INSERT into students (STU_ID, STU_NAME,STU_EMAIL,STU_DOB,CELL_NO, BLOOD_GRP)
+values('2','tanvir','tanvir@gamil.com','sysdate-150','01977797317','o+');
+COMMENT;
+select *from  students;
+
+insert into students(STU_ID,STU_NAME,STU_EMAIL,STU_DOB,CELL_NO)
+select employee_id,last_name,email, hire_date, substr(phone_number,1,11)
 from employees
+where last_name like '%u%';
+ ja
+select * from students;
 
-select last_name, job_id,salary,
-case job_id WHEN 'IT_PROG' THEN 1.10*salary
-            WHEN 'ST_CLERK' THEN 1.15*salary
-            WHEN 'SA_REP'   THEN 1.20*salary
-ELSE        salary END      "REVISER_SALARY"
-FROM employees;
+create  table emp1294600(
+eid number (7) not null,
+ename varchar2 (26) not null,
+salary number (10,2) not null,
+hire_date date,
+address varchar2(50),
+constraint hr_emp1294600_eid_pk PRIMARY KEY (eid)
+);
 
-select job_ID,MAX(SALARY)
-FROM employees
-GROUP BY job_id 
-ORDER BY DESC;
+select from * emp1294600
+CREATE TABLE emp1294600 (
+  eid NUMBER(7) NOT NULL,
+  ename VARCHAR2(26) NOT NULL,
+  salary NUMBER(10,2) NOT NULL,
+  hire_date DATE,
+  address VARCHAR2(50),
+  CONSTRAINT hr_emp1294600_eid_pk PRIMARY KEY (eid)
+);
 
-Select max(salary),department_id,job_id
-FROM employees
-GROUP BY department_id,job_ID
-ORDER BY 1 DESC;
-
-Select max(salary),COUNT(department_id),job_id
-FROM employees
-GROUP BY department_id,job_ID
-ORDER BY 1 DESC;
-
-
-SELECT JOB_ID,SUM(SALARY)PAYROLL
-FROM    employees
-WHERE   JOB_ID NOT like '%REF%'
-group by job_id
-having sum (salary)>13000
-order By sum(salary);
-
-select max(avg(salary))
-from employees
-group by department_id;
+commit;
+SELECT
+    * FROM emp1294600
+selec
+INSERT into emp1294600 (EId,ENAME,SALARY,HIDE_DATE,ADDRESS)
+values('12345','MASUD','2333','09-JAN-2000',10/20);
