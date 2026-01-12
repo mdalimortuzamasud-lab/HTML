@@ -20,7 +20,7 @@ function fromData(e) {
         "Remarks: " + remarks + "\n" +
         "Gender: " + gender.value + "\n" +
         "Course: " + courseList.join(', ') + "\n" +
-        "Location: " + location;
+        "Location: " + location + "\n";
 
 
     let newWindow = window.open('', '_blank');
