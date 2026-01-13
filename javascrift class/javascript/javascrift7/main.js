@@ -17,9 +17,9 @@ function submitdata(event){
                 "remarks:" + remarks + "\n"+
                 "location:" + location + "\n"+
                 "gender:" + gender.value + "\n"+
-                "course:" + courselist.join(",") + "\n";
+                "course:" + courselist.join(',') + "\n";
 
-    let newWindow =window.open(" ","_blank");
+    let newWindow =window.open('','_blank');
  newWindow.document.writeln("<pre>" + output + "</pre>");
 
 }
