@@ -48,6 +48,26 @@ CREATE TABLE emp1294600 (
 commit;
 SELECT
     * FROM emp1294600
-selec
+select
 INSERT into emp1294600 (EId,ENAME,SALARY,HIDE_DATE,ADDRESS)
-values('12345','MASUD','2333','09-JAN-2000',10/20);
+values('1294623','MASUD','2','09-JAN-2000',10/20);
+
+
+
+update students 
+
+desc students
+
+
+create table emp1122(
+    emp_id number,
+    emp_name varchar (30) not null,
+    emp_email varchar (60) not null,
+    emp_salary number (10,2),
+    emp_cell varchar (15),
+    
+    constraint hr_emp1122_emp_id_pk primary key (emp_id), 
+    constraint hr_emp1122_emp_email_uq UNIQUE (emp_email), 
+    constraint hr_emp1122_emp_cell_uq UNIQUE (emp_id)
+    
+    
