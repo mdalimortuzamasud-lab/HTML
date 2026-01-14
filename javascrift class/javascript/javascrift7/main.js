@@ -6,7 +6,7 @@ function submitdata(event){
     let remarks = document.getElementById("remarks").value; 
     let location = document.getElementById("location").value; 
     let gender =document.querySelector('input[name="gender"]:checked');
-    let course =document.querySelectorALL('input[name="course"]:checked');
+    let course =document.querySelectorAll('input[name="course"]:checked');
 
     let courselist= [];
      for(let i = 0; i<course.length;i++){
