@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let email = prompt("ENTER YOUR EMAIL NUMBER");
+        let pattern = 
+/^((?!\.)[\w-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/gim;
+
+        if(pattern.test(email)){
+            document.writeln("it is a vaild number");
+
+        } else{
+            document.writeln("INVAILD NUMBER")
+        }
+    </script>
+</body>
+</html>
